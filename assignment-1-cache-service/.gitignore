@@ -2,10 +2,9 @@
 /vendor/
 composer.lock
 
-# Runtime
-/runtime/cache/
-/runtime/log/
-/runtime/debug/
+# Runtime (keep the directory itself, ignore everything inside)
+/runtime/*
+!/runtime/.gitkeep
 
 # IDE
 .idea/
