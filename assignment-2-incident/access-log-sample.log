@@ -1,0 +1,19 @@
+# Nginx access-log extract for Assignment 2.
+# Redacted and representative: timestamps removed, IP addresses illustrative.
+# This is a sample of a much larger log — treat it as representative of the
+# pattern, not the entire dataset.
+
+203.0.113.44   - - "GET /wp-admin/ HTTP/1.1" 404 145 "-" "Mozilla/5.0 zgrab/0.x"
+203.0.113.44   - - "GET /xmlrpc.php HTTP/1.1" 404 145 "-" "Mozilla/5.0 zgrab/0.x"
+198.51.100.7   - - "GET /.env HTTP/1.1" 404 145 "-" "python-requests/2.31"
+198.51.100.7   - - "GET /phpmyadmin/ HTTP/1.1" 404 145 "-" "python-requests/2.31"
+216.144.250.9  - - "GET /health HTTP/1.1" 200 12 "-" "UptimeRobot/2.0"
+216.144.250.9  - - "GET /health HTTP/1.1" 200 12 "-" "UptimeRobot/2.0"
+203.0.113.44   - - "GET /test.php HTTP/1.1" 404 145 "-" "Mozilla/5.0 zgrab/0.x"
+104.18.22.33   - - "POST /webhooks/razorpay HTTP/1.1" 200 32 "-" "Razorpay-Webhook/1.0"
+198.51.100.7   - - "GET /api/debug HTTP/1.1" 404 145 "-" "python-requests/2.31"
+45.146.164.2   - - "GET /admin/login.php HTTP/1.1" 404 145 "-" "-"
+110.226.180.5  - - "GET /flights/mumbai-delhi HTTP/1.1" 200 8144 "-" "Mozilla/5.0 (iPhone)"
+110.226.180.5  - - "GET /.env HTTP/1.1" 404 145 "-" "Mozilla/5.0 (iPhone)"
+66.249.66.1    - - "GET /sitemap.xml HTTP/1.1" 200 2201 "-" "Googlebot/2.1"
+45.146.164.2   - - "GET /random-string HTTP/1.1" 404 145 "-" "-"

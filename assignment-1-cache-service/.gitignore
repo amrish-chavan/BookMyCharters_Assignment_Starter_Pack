@@ -1,0 +1,26 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# Runtime
+/runtime/cache/
+/runtime/log/
+/runtime/debug/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+.env.local
